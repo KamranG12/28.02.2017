@@ -1,0 +1,180 @@
+html,
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.clearfix {
+    clear: both;
+}
+
+[class*='col_'] {
+    float: left;
+}
+
+.col_1 {
+    width: 8.3333%;
+}
+
+.col_offset_1 {
+    margin-left: 8.3333%;
+}
+
+.col_2 {
+    width: 16.667%;
+}
+
+.col_offset_2 {
+    margin-left: 16.667%;
+}
+
+.col_3 {
+    width: 25%;
+}
+
+.col_offset_3 {
+    margin-left: 25%;
+}
+
+.col_4 {
+    width: 33.3333%;
+}
+
+.col_offset_4 {
+    margin-left: 33.3333%;
+}
+
+.col_5 {
+    width: 41.6667%;
+}
+
+.col_offset_5 {
+    margin-left: 41.6667%;
+}
+
+.col_6 {
+    width: 50%;
+}
+
+.col_offset_6 {
+    margin-left: 50%;
+}
+
+.col_7 {
+    width: 58.3333%;
+}
+
+.col_offset_7 {
+    margin-left: 58.3333%;
+}
+
+.col_8 {
+    width: 66.6667%;
+}
+
+.col_offset_8 {
+    margin-left: 66.6667%;
+}
+
+.col_9 {
+    width: 75%;
+}
+
+.col_offset_9 {
+    margin-left: 75%;
+}
+
+.col_10 {
+    width: 83.3333%;
+}
+
+.col_11 {
+    width: 91.6667%;
+}
+
+.col_12 {
+    width: 100%;
+}
+
+.pull-left {
+     float: left;
+ }
+ 
+ .pull-right {
+     float: right;
+ }
+
+ .header{
+     background-color: #f25222;
+     opacity: 0.9;
+ }
+
+ .icon img{
+     margin-top: 33px;    
+ }
+
+ .icon::before{
+     content: "";
+     border-left: 2px solid white;
+     margin-right: 10px;
+     padding: 10px 0;
+     height: 50px;
+     -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari */
+    transform: rotate(-30deg);
+ }
+
+ .col_8 img{
+     margin-top: -100px;
+ }
+
+ .eded {
+     color:white;
+     padding-top: 15px;
+ }
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: yellow;
+    min-width: 5px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: -10;
+}
+
+.dropdown-content a:hover {background-color: yellow}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: yellow;
+    color: black;
+    z-index: 1;
+}
