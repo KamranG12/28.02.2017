@@ -141,7 +141,8 @@ body {
  .dropdown {
     position: relative;
     display: inline-block;
-    padding-top: 15px;
+    margin-top: 35px;
+    padding-top: 0;
 }
 
 .dropdown a{
@@ -164,8 +165,8 @@ body {
     color: black;
     text-decoration: none;
     display: block;
-    margin: -10;
 }
+
 
 .dropdown-content a:hover {background-color: yellow}
 
@@ -173,8 +174,121 @@ body {
     display: block;
 }
 
-.dropdown a:hover{
+.dropdown:hover{
     background-color: yellow;
     color: black;
     z-index: 1;
+}
+
+.dropdown a:hover{
+    color: black;
+    z-index: 1;
+}
+
+a h2{
+        display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.sened p{
+    width: 50%;
+    font-size: 12px;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.sened h2{
+    width: 20%;
+}
+
+.sened{
+    margin-top: 20px;
+    color: white;
+}
+
+.tehvil p{
+    width: 70%;
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+.tehvil h2{
+    width: 20%;
+}
+
+.tehvil{
+    margin-top: 20px;
+    color: white;
+}
+
+.button{
+    background-color: #fbc222;
+    margin-top: 27px;
+    width: 100%;
+}
+
+.button h2{
+        display: block;
+        padding: 10px 0;
+    font-size: 15px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.button i{
+    margin: 5px 1px 0 5px;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media screen and (max-width: 1124px) {
+    .col_2{
+        width: 100%;
+    }
+    .row{
+       width: 100%; 
+    }
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .row{
+       width: 100%; 
+    }
+    .col_2{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .col_2{
+        width: 100%;
+    }
+    .row{
+       width: 100%; 
+    }
+    .header{
+        width: 100%;
+    }
 }
